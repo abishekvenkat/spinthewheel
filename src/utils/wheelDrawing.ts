@@ -59,6 +59,6 @@ export function drawPointer(
   ctx.lineTo(pointerX, centerY);
   ctx.lineTo(pointerX + 30, centerY + 15);
   ctx.closePath();
-  ctx.fillStyle = '#ff0000';
+  ctx.fillStyle = '#000000';
   ctx.fill();
 }
